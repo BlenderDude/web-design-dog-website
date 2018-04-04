@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.background{
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+}
+
+.container h1{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.container p{
+    font-weight: 300;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.rowPadding{
+    margin: 40px 0;
+}
