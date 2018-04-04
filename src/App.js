@@ -10,6 +10,7 @@ import Footer from "./components/Footer"
 
 import Home from "./components/Home"
 import Females from "./components/Females"
+import Males from "./components/Males"
 
 class App extends Component {
     render() {
@@ -19,6 +20,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/" exact component={Home}/>
                     <Route path="/females" component={Females}/>
+                    <Route path="/males" component={Males}/>
                 </Switch>
 
                 <Footer/>
