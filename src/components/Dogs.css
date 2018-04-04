@@ -18,8 +18,33 @@
 
 .row h1 {
     font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.row h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 5px 0;
 }
 
 .row p{
     font-size: 18px;
+    margin: 5px 0;
+}
+
+.background{
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+}
+
+.flex{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.rowPadding{
+    margin: 40px 0;
 }
