@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import s from './Dogs.css'
 
-import belle from '../img/belle.jpg'
+import belle from '../../img/belle.jpg'
 
 export default class Females extends Component {
     render() {

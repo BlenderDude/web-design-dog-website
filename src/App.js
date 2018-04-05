@@ -1,16 +1,14 @@
 import React, {Component} from 'react'
 import {Switch,Route} from 'react-router-dom'
 import s from './App.css'
-import Header from "./components/Header"
-import {Row} from "./components/Flex"
-import Featured from "./components/Featured"
+import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
 
-import Banner from "./components/Banner"
-import Footer from "./components/Footer"
-
-import Home from "./components/Home"
-import Females from "./components/Females"
-import Males from "./components/Males"
+import Home from "./components/Home/Home"
+import Females from "./components/Dogs/Females"
+import Males from "./components/Dogs/Males"
+import PreviousPups from "./components/PreviousPups/PreviousPups"
+import AvailablePups from "./components/AvailablePups/AvailablePups"
 
 class App extends Component {
     render() {
@@ -21,6 +19,8 @@ class App extends Component {
                     <Route path="/" exact component={Home}/>
                     <Route path="/females" component={Females}/>
                     <Route path="/males" component={Males}/>
+                    <Route path="/previous-pups" component={PreviousPups}/>
+                    <Route path="/available-pups" component={AvailablePups}/>
                 </Switch>
 
                 <Footer/>

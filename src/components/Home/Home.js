@@ -1,13 +1,9 @@
 import React, {Component} from 'react'
-import ScrollParagraph from './ScrollParagraph'
 import s from "./Home.css"
 
-import puppy1 from '../img/puppy1.jpg'
-import puppy2 from '../img/puppy2.jpg'
-import puppy3 from '../img/puppy3.jpg'
-
-import dog1 from "../img/dog1.jpg"
-import Banner from "./Banner"
+import puppy1 from '../../img/puppy1.jpg'
+import puppy2 from '../../img/puppy2.jpg'
+import puppy3 from '../../img/puppy3.jpg'
 
 export default class Home extends Component {
     render() {
