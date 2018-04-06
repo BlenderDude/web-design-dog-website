@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import s from './AvailablePups.css'
+import s from './Pups.css'
 
 import jade from './img/jade.jpg'
 import onix from './img/onix.jpg'

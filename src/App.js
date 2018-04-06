@@ -9,6 +9,7 @@ import Females from "./components/Dogs/Females"
 import Males from "./components/Dogs/Males"
 import PreviousPups from "./components/PreviousPups/PreviousPups"
 import AvailablePups from "./components/AvailablePups/AvailablePups"
+import AussiesAtWork from "./components/AvailablePups/AussiesAtWork";
 
 class App extends Component {
     render() {
@@ -21,8 +22,8 @@ class App extends Component {
                     <Route path="/males" component={Males}/>
                     <Route path="/previous-pups" component={PreviousPups}/>
                     <Route path="/available-pups" component={AvailablePups}/>
+                    <Route path="/aussies-at-work" component={AussiesAtWork}/>
                 </Switch>
-
                 <Footer/>
             </div>
         )

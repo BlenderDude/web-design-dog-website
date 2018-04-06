@@ -27,6 +27,7 @@
 }
 
 .image {
+    display: block;
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -49,6 +50,8 @@
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .center {
@@ -59,4 +62,21 @@
 .column {
     display: flex;
     flex-direction: column;
+    padding: 1px;
 }
+
+.dogImage {
+    width: 220px;
+    text-align: center;
+    padding: 10px;
+}
+
+.dogImage h4{
+    margin: 0 10px;
+    font-weight: 300;
+}
+
+.dogImage .image:hover {
+    transform: scale(1.1);
+}
+
